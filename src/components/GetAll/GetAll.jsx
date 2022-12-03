@@ -15,7 +15,7 @@ const GetAll = () => {
         // console.log(res.data.data);
         console.log(res);
         setData(res.data);
-       
+
         // handle success
       })
       .catch((err) => {
@@ -29,16 +29,22 @@ const GetAll = () => {
     getPosts();
   }, []);
 
-  return <div>
-    {data.map((item) => {
-        return <div>
-            <p>{item.cid}</p>
-            <p>{item.created}</p>
-            <p>{item.name}</p>
-        </div>
-    })}
-    
-  </div>;
+  return (
+    <div className=" grid-cols-3 justify-center">
+      {data.map((item) => {
+        return (
+          <div className="card">
+            <h3>{item.name}</h3>
+            <button>
+              {" "}
+              <a href={`https://${item.cid}.ipfs.w3s.link`}>Open</a>
+            </button>
+            <p>{item.created.slice(0, 10)}</p>
+          </div>
+        );
+      })}
+    </div>
+  );
 };
 
 export default GetAll;

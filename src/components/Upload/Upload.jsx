@@ -12,16 +12,19 @@ const getcid = window.localStorage.getItem("cid");
 export default function Upload() {
   const [file, setFile] = useState("");
   const [displayurl, setDisplayurl] = useState("");
+  const [name, setName] = useState("");
+  const [response, setResponse] = useState("");
 
   const handleUpload = async () => {
     console.log(document.getElementById("input").files[0]);
     var fileInput = document.getElementById("input");
 
     const rootCid = await client.put(fileInput.files, {
-      name: "cat pics",
+      name: name,
       maxRetries: 3,
     });
     setDisplayurl(`https://${rootCid}.ipfs.w3s.link`);
+     setResponse("File Uploaded Successfully");
     window.localStorage.setItem("cid", rootCid);
     console.log(rootCid);
 
@@ -32,21 +35,28 @@ export default function Upload() {
     console.log(url);
 
     setFile(url);
+   
   };
 
   return (
-    <div className="App">
+    <div className="App centre-block">
       <h2>Decentralized file storage system</h2>
       <h1>F3TCH</h1>
 
-      <div>
+      <div className="flex-box-col ">
+        <input
+          type="text"
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Enter Title"
+        />
         <label for="file">Choose file to upload</label>
         <input type="file" id="input" name="file" multiple />
-      </div>
-      <p> </p>
-      <div>
         <button onClick={handleUpload}>Submit</button>
-        <button>
+      </div>
+
+      <p>{response}</p>
+      <div>
+        {/* <button>
           {" "}
           <a href={displayurl}>Go to file</a>
         </button>
@@ -54,7 +64,7 @@ export default function Upload() {
         <button>
           {" "}
           <a href={displayurl}>View All your files</a>
-        </button>
+        </button> */}
       </div>
     </div>
   );
