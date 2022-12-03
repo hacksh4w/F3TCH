@@ -6,9 +6,12 @@ const apiToken =
 
 const client = new Web3Storage({ token: apiToken });
 
+window.localStorage.setItem("cid", "");
+const getcid = window.localStorage.getItem("cid");
+
 export default function Upload() {
   const [file, setFile] = useState("");
-  const [displayurl,setDisplayurl]=useState("");
+  const [displayurl, setDisplayurl] = useState("");
 
   const handleUpload = async () => {
     console.log(document.getElementById("input").files[0]);
@@ -18,7 +21,8 @@ export default function Upload() {
       name: "cat pics",
       maxRetries: 3,
     });
-    setDisplayurl(rootCid)
+    setDisplayurl(`https://${rootCid}.ipfs.w3s.link`);
+    window.localStorage.setItem("cid", rootCid);
     console.log(rootCid);
 
     const res = await client.get(rootCid);
@@ -26,28 +30,32 @@ export default function Upload() {
     console.log(files);
     const url = URL.createObjectURL(files[0]);
     console.log(url);
-   
 
-  
     setFile(url);
   };
-  
-  
+
   return (
     <div className="App">
       <h2>Decentralized file storage system</h2>
-      <h1>Hello CodeSandbox</h1>
-      <img alt="hi" src={file} />
+      <h1>F3TCH</h1>
 
       <div>
         <label for="file">Choose file to upload</label>
         <input type="file" id="input" name="file" multiple />
       </div>
-      <p>  {displayurl}.ipfs.w3s.link</p>
+      <p> </p>
       <div>
         <button onClick={handleUpload}>Submit</button>
+        <button>
+          {" "}
+          <a href={displayurl}>Go to file</a>
+        </button>
+
+        <button>
+          {" "}
+          <a href={displayurl}>View All your files</a>
+        </button>
       </div>
-    
     </div>
   );
 }
