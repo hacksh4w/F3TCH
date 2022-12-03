@@ -41,7 +41,7 @@ contract F3TCHERCToken is ERC20Burnable, ERC20Pausable, Ownable {
      *
      * See {ERC20-constructor}.
      */
-    constructor() ERC20("F3tch", "FTH") {
+    constructor() ERC20("F3tch", "FEH") {
         _mint(_msgSender(), 3.25 * 10**9 * 10**18);
     }
 
