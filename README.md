@@ -76,7 +76,7 @@ A login page with 3 fields
 Steps To Run the Project:
 
 1.Downloading the Modules.
-- vite; react; react-dom; 
+- vite; react; react-router; web3.storage; axios 
 2. `` cd  F3TCH  ``
 3. `` cd Landing ``
 4. `` npm install``
