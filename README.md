@@ -50,6 +50,27 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 ### Live Demo
 Hosted Link : https://
 
+### Login/Sign Up Page
+Sign-Up Page : 
+Username, Password & Designation.
+On enterring current details, redirects to the HomePage
+Login Page:
+A login page with 3 fields 
+Login ID; Dictor ID & . 
+On entering the right credentials, it directs the page to the HomePage.
+
+HomePage: 
+Section 1(left) : Upload Section
+Input fields
+
+Section 2(right) : Retreive Section
+Dynamic Search Bar to find the required Patient's documents. 
+Clicking on the file directs to the IPFS page, and file can be accessed directly. 
+
+## Steps to Reproduce in the Future 
+- Access Control 
+- Monetise the platform with Biconomy. The Client (Patient) pays a nomimal fee for the upload and retreival of their files. 
+
 ## Installation
 Steps To Run the Project:
 
