@@ -78,6 +78,5 @@ Steps To Run the Project:
 1.Downloading the Modules.
 - vite; react; react-router; web3.storage; axios 
 2. `` cd  F3TCH  ``
-3. `` cd Landing ``
-4. `` npm install``
-5. `` npm run dev``
+3. `` npm install``
+4. `` npm run dev``
