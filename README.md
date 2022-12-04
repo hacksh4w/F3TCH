@@ -15,7 +15,7 @@ Tech-Heroes : web3.storage, Biconomy,
 5. [Installation](#installation)
 
 
-Problem Statement : Patients find it a near impossible tasks to gain ccess to all relevant medical records when transferring from Hospital 1 to Hospital 2, and often are forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines their privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
+Problem Statement : Patients find it a near impossible tasks to gain access to all relevant medical records when transferring from Hospital 1 to Hospital 2, and are often forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines their privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
 1. Medical Conditions
 2. Treatments Accessed
 3. Treatment Payments or Healtcare Services accessed
@@ -24,7 +24,7 @@ Although, the sharing of above information can be overridden by the Patient's co
 
 ## What is F3TCH?
 F3TCH brings a decentralised and secure approach to the problem by allowing the Patient's primary healthcare provider at Hospital 1 to upload all required files onto the Ethereum Blockchain and sharing the key with Patient so they may access their own files from it and share relevant documents with their Primary Healthcare Provider at Hospital 2.  
-F3TCH also abstracs the nitty gritty aspects of Web3 away from the user and delivers the familiar web2 experience to the average user. 
+F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and delivers the familiar web2 experience to the average user. 
 
 
 # Team Members
