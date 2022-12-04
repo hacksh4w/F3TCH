@@ -2,7 +2,7 @@
 A web3 based secure storage client to allow Patients to retreive their confidental medical info when tranferring their healthcare from one establishment to another. Their primary healthcare provider has access to upload the required documents and patients can access them. 
 
 
-Repo for TPG Hackerhouse 2022
+**Tech Pirates** Repo for TPG Hackerhouse Dec 2nd - 4th, 2022
 Tech-Heroes : IPFS (web3.storage), Biconomy, 
 
 <img src="https://img.shields.io/badge/-IPFS-grey?logo=ipfs&logoColor=65C2CB?&style=for-the-badge"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E"><img src="https://img.shields.io/badge/-Solidity-363636?logo=Solidity&logoColor=65C2CB?&style=for-the-badge">
@@ -29,7 +29,7 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 
 
 # Team Members
-
+### **Team Name** : Tech Pirates
 1. [Mrinalini Nair Ani](https://github.com/hacksh4w/)
 1. [Jozef Antony Neelamkavil](https://github.com/jzf21)
 1. [Kevin Joseph Hendry](https://github.com/kevin-j-h)
@@ -48,7 +48,7 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 
 ## 🔧 Project Demo:
 ### Live Demo
-Hosted Link : https://
+Hosted Link : [F3TCH](https://f3tch.netlify.app/home)
 
 ### Login/Sign Up Page
 #### Sign-Up Page : 
