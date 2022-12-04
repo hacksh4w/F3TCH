@@ -39,10 +39,10 @@ F3TCH also abstracs the nitty gritty aspects of Web3 away from the user and deli
 - [x] **Fully Opensource**
 - [x] **Easy setup**
 - [x] **Clean UI**
-- [x] **Decentralised & on the BlockChain
+- [x] **Decentralised & on the BlockChain**
 - [x] **Secure**
 - [x] **Web2 Experience on web3 with abstraction for easy use**
-- [x] **web3.storage**
+- [x] **uses web3.storage**
 
 
 ## 🔧 Project Demo:
