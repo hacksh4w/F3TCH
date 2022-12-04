@@ -17,9 +17,9 @@ Tech-Heroes : IPFS (web3.storage), Biconomy,
 
 ## Project Description
 Problem Statement : Patients find it a near impossible tasks to gain access to all relevant medical records when transferring from Hospital 1 to Hospital 2, and are often forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines their privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
-1. Medical Conditions
-2. Treatments Accessed
-3. Treatment Payments or Healtcare Services accessed
+- Medical Conditions
+- Treatments Accessed
+- Treatment Payments or Healtcare Services accessed
  
 Although, the sharing of above information can be overridden by the Patient's consent, most organisations do not with the fear of being hit with a HIPAA violation. 
 
@@ -51,23 +51,24 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 Hosted Link : https://
 
 ### Login/Sign Up Page
-Sign-Up Page : 
+#### Sign-Up Page : 
 Username, Password & Designation.
 On enterring current details, redirects to the HomePage
-Login Page:
+
+#### Login Page:
 A login page with 3 fields 
 Login ID; Dictor ID & . 
 On entering the right credentials, it directs the page to the HomePage.
 
-HomePage: 
-Section 1(left) : Upload Section
+### HomePage: 
+#### Section 1(left) : Upload Section
 Input fields
 
-Section 2(right) : Retreive Section
+#### Section 2(right) : Retreive Section
 Dynamic Search Bar to find the required Patient's documents. 
 Clicking on the file directs to the IPFS page, and file can be accessed directly. 
 
-## Steps to Reproduce in the Future 
+## Intended Updates to the Site
 - Access Control 
 - Monetise the platform with Biconomy. The Client (Patient) pays a nomimal fee for the upload and retreival of their files. 
 
