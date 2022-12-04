@@ -26,6 +26,7 @@ function SignupPage() {
 
   const handleSubmit1 = (e) => {
     e.preventDefault();
+     navigate("/home");
     console.log(type, state);
     axios
       .post(
@@ -42,7 +43,7 @@ function SignupPage() {
           window.localStorage.setItem("auth", "true");
           window.localStorage.setItem("name", state.name);
 
-          navigate("/home");
+         
           setLogin(res.data.message);
           window.location.reload();
         }
@@ -71,13 +72,13 @@ function SignupPage() {
       <div className="signupcard">
         <form className="signupform" onSubmit={handleSubmit1}>
           <div className="featuredItem2-top-top1 ">
-            <img src="https://i.imgur.com/6l4fJOf.png"></img>
+   
             <p color="#000">
-              <span color="#000">HealthUP</span>
+              <span className="funky-font" color="#000">F3TCH</span>
             </p>
           </div>
           <br></br>
-          <h5 className="signupheading">Sign up </h5>
+          <h5 className="signupheading funky-font1">Login </h5>
           <div className="asdf">
             <label className=""></label>
             <input
@@ -89,15 +90,7 @@ function SignupPage() {
               className=""
               required
             />
-            <input
-              type="email"
-              name="email"
-              placeholder="abc@gmail.com"
-              value={state.username}
-              onChange={handleChange}
-              className=""
-              required
-            />
+     
 
             <input
               type="password"
@@ -110,14 +103,9 @@ function SignupPage() {
             />
 
             <button type="submit" className="">
-              Signup
+            Login
             </button>
-            <div className="alreadyaccou">
-              Already have account?{" "}
-              <Link to="/login" className="">
-                Login
-              </Link>
-            </div>
+         
 
             <p className="text-black">{login}</p>
           </div>

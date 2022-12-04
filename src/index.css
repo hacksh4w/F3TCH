@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital@0;1&display=swap');
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -107,4 +108,83 @@ button:focus-visible {
 }
 .h-full {
   height: 100vh;
+}
+
+.funky-color{
+  font-family: 'Bungee Spice', cursive;
+  font-size: 2.5rem;
+  color:transparent;
+  background-color: #5869ea;
+  -webkit-background-clip: text;
+  animation: colour-change 2s loop;
+  
+}
+.mt-5{
+ 
+  margin-bottom: 2rem;
+}
+@keyframes colour-change {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button {
+  background: #4537de;
+  border-color: #4537de;
+  box-shadow: 0 0.1rem 0.3rem #4537de66;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-variation-settings: "wght" 550;
+  font-weight: 400;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  margin: 10px auto;
+}
+.form-submit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+.form-submit input{
+  width: 60%;
+  background-color: #b9bdda;
+}
+
+.submit-button{
+  width: 60%;
+  background-color: #b9bdda;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #4652bf;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }

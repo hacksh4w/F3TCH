@@ -7,6 +7,9 @@ const GetAll = () => {
     headers: { Authorization: `Bearer ${apiToken}` },
   };
   const [data, setData] = useState([]);
+    const [q, setQ] = useState("");
+
+      const [searchParam] = useState(["name", "name"]);
 
   const getPosts = async () => {
     await axios
@@ -24,25 +27,43 @@ const GetAll = () => {
         // handle error
       });
   };
+    function search(items) {
+      return items.filter((item) => {
+        return searchParam.some((newItem) => {
+          return (
+            item[newItem].toString().toLowerCase().indexOf(q.toLowerCase()) > -1
+          );
+        });
+      });
+    }
 
   useEffect(() => {
     getPosts();
   }, []);
 
   return (
-    <div className=" grid-cols-3 justify-center">
-      {data.map((item) => {
-        return (
-          <div className="card">
-            <h3>{item.name}</h3>
-            <button>
-              {" "}
-              <a href={`https://${item.cid}.ipfs.w3s.link`}>Open</a>
-            </button>
-            <p>{item.created.slice(0, 10)}</p>
-          </div>
-        );
-      })}
+    <div>
+      <input
+        className="Search"
+        type="text"
+        placeholder="Search"
+        value={q}
+        onChange={(e) => setQ(e.target.value)}
+      />
+      <div className=" grid-cols-3 justify-center">
+        {search(data).slice(0).map((item) => {
+          return (
+            <div className="card">
+              <h3>{item.name}</h3>
+              <button>
+                {" "}
+                <a href={`https://${item.cid}.ipfs.w3s.link`}>Open</a>
+              </button>
+              <p>{item.created.slice(0, 10)}</p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

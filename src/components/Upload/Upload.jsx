@@ -40,18 +40,20 @@ export default function Upload() {
 
   return (
     <div className="App centre-block">
+      <h1 className="funky-font funky-color">F3TCH</h1>
       <h2>Decentralized file storage system</h2>
-      <h1>F3TCH</h1>
 
       <div className="flex-box-col ">
+        <h2>Upload Patient Records</h2>
         <input
           type="text"
           onChange={(e) => setName(e.target.value)}
-          placeholder="Enter Title"
+          placeholder="Enter Patient ID"
         />
-        <label for="file">Choose file to upload</label>
+{/* 
+        <label for="file">Choose file to upload</label> */}
         <input type="file" id="input" name="file" multiple />
-        <button onClick={handleUpload}>Submit</button>
+        <button onClick={handleUpload} className="submit-button">Submit</button>
       </div>
 
       <p>{response}</p>

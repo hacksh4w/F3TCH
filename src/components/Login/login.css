@@ -104,3 +104,33 @@ input {
   border-radius: 20px;
   align-self: center;
 }
+
+.funky-font{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 2.5rem;
+    color:transparent;
+    background-color: #000b6b;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.funky-font1{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 2rem;
+    color:transparent;
+    background-color: #19191a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.signupheading {
+  font-size: 20px;
+  width: 90%;
+  font-weight: 600;
+ 
+ 
+  padding: 6px 15px;
+  text-align: center;
+  border-radius: 20px;
+}
