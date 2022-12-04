@@ -15,7 +15,7 @@ Tech-Heroes : web3.storage, Biconomy,
 5. [Installation](#installation)
 
 
-Problem Statement : Patients find it a near impossible tasks to gain ccess to all relevant medical records when transferring from Hospital 1 to Hospital 2, and often are forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines thier privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
+Problem Statement : Patients find it a near impossible tasks to gain ccess to all relevant medical records when transferring from Hospital 1 to Hospital 2, and often are forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines their privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
 1. Medical Conditions
 2. Treatments Accessed
 3. Treatment Payments or Healtcare Services accessed
