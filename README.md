@@ -3,7 +3,7 @@ A web3 based secure storage client to allow Patients to retreive their confident
 
 
 **Tech Pirates** Repo for TPG Hackerhouse Dec 2nd - 4th, 2022
-Tech-Heroes : IPFS (web3.storage), Biconomy, 
+Tech-Heroes : IPFS, web3.storage
 
 <img src="https://img.shields.io/badge/-IPFS-grey?logo=ipfs&logoColor=65C2CB?&style=for-the-badge"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E"><img src="https://img.shields.io/badge/-Solidity-363636?logo=Solidity&logoColor=65C2CB?&style=for-the-badge">
 
