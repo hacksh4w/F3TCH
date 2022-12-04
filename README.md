@@ -49,6 +49,7 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 
 ## 🔧 Project Demo:
 [Demo Document](https://docs.google.com/document/d/1tKNwgIpqZWKnEeDfTPFcPAmc_h4MMG_fstvecCdaSdY/edit)
+<br><br/>
 [DEMO VIDEO](https://drive.google.com/file/d/1_3Yja6JV8WgNLrsdS5EEoTY9wWCuC06y/view?usp=sharing)
 ### Live Demo
 Hosted Link : [F3TCH](https://f3tch.netlify.app/)
