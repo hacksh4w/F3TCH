@@ -52,21 +52,21 @@ Hosted Link : [F3TCH](https://f3tch.netlify.app/home)
 
 ### Login/Sign Up Page
 #### Sign-Up Page : 
-Username, Password & Designation.
-On enterring current details, redirects to the HomePage
+- Username, Password & Designation.
+- On enterring current details, redirects to the HomePage
 
 #### Login Page:
 A login page with 3 fields 
-Login ID; Dictor ID & . 
-On entering the right credentials, it directs the page to the HomePage.
+- Login ID; Dictor ID & . 
+- On entering the right credentials, it directs the page to the HomePage.
 
 ### HomePage: 
 #### Section 1(left) : Upload Section
-Input fields
+- Input fields
 
 #### Section 2(right) : Retreive Section
-Dynamic Search Bar to find the required Patient's documents. 
-Clicking on the file directs to the IPFS page, and file can be accessed directly. 
+- Dynamic Search Bar to find the required Patient's documents. 
+- Clicking on the file directs to the IPFS page, and file can be accessed directly. 
 
 ## Intended Updates to the Site
 - Access Control 
