@@ -16,9 +16,9 @@ Tech-Heroes : web3.storage, Biconomy,
 
 
 Problem Statement : Patients find it a near impossible tasks to gain ccess to all relevant medical records when transferring from Hospital 1 to Hospital 2, and often are forced to repeat the processes already completed at Hospital 1 as they are unable to retreive, securely, all their data. Policies in the interest of protecting patient confidentiality such as HIPAA defines thier privacy guidelines PHI (Protected Health Information) as any “individually identifiable health information” that individually or together could reveal a patient´s identity. This includes the past, present or future :- 
-1. medical conditions
-2. treatments accessed
-3. treatment payment or healtcare services accessed
+1. Medical Conditions
+2. Treatments Accessed
+3. Treatment Payments or Healtcare Services accessed
  
 Although, the sharing of above information can be overridden by the Patient's consent, most organisations do not with the fear of being hit with a HIPAA violation. 
 
@@ -38,7 +38,7 @@ F3TCH also abstracs the nitty gritty aspects of Web3 away from the user and deli
 ## Key Features 
 - [x] **Fully Opensource**
 - [x] **Easy setup**
-- [ ] **Clean UI**
+- [x] **Clean UI**
 - [x] **Decentralised & on the BlockChain
 - [x] **Secure**
 - [x] **Web2 Experience on web3 with abstraction for easy use**
