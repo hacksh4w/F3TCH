@@ -44,13 +44,13 @@ const GetAll = () => {
   return (
     <div>
       <input
-        className="Search"
+        className="Search mx-2"
         type="text"
         placeholder="Search"
         value={q}
         onChange={(e) => setQ(e.target.value)}
       />
-      <div className=" grid-cols-3 justify-center">
+      <div className=" grid-cols-3 justify-center mx-2">
         {search(data).slice(0).map((item) => {
           return (
             <div className="card">

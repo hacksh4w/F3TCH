@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 const ReportTemplate = () => {
     const [name,setName]=useState('');
@@ -47,40 +47,53 @@ const ReportTemplate = () => {
         textAlign: "center",
         margin: "1rem 0 1rem 0",},
   };
+    const [name1, setName1] = useState("");
+
+  
   return (
     <>
-    <form className="form-submit">
-        <input type="text" onChange={(e)=>setName(e.target.value)} placeholder="Enter Patient Name"/>
-        <input type="text" onChange={(e)=>setAge(e.target.value)} placeholder="Enter Patient Age"/>
-        <input type="text" onChange={(e)=>setDiag(e.target.value)} placeholder="Enter Patient Diagnosis"/>
-        <input type="text" onChange={(e)=>setMed(e.target.value)} placeholder="Enter Patient Medication"/>
-        <input type="text" onChange={(e)=>setDate(e.target.value)} placeholder="Enter Date"/>
-
-       
-        
-    </form>
+      <form className="form-submit">
+        <input
+          type="text"
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Enter Patient Name"
+        />
+        <input
+          type="text"
+          onChange={(e) => setAge(e.target.value)}
+          placeholder="Enter Patient Age"
+        />
+        <input
+          type="text"
+          onChange={(e) => setDiag(e.target.value)}
+          placeholder="Enter Patient Diagnosis"
+        />
+        <input
+          type="text"
+          onChange={(e) => setMed(e.target.value)}
+          placeholder="Enter Patient Medication"
+        />
+        <input
+          type="text"
+          onChange={(e) => setDate(e.target.value)}
+          placeholder="Enter Date"
+        />
+      </form>
       <div style={styles.page}>
         <div>
-          <h1 style={styles.introText}>
-          {name}
-          </h1>
+          <h1 style={styles.introText}>{name}</h1>
         </div>
 
         <div style={styles.spacer2}></div>
-
-       
       </div>
 
       <div style={styles.page}>
         <div>
-          <h2 style={styles.introText}>
-           Medical Data
-          </h2>
+          <h2 style={styles.introText}>Medical Data</h2>
         </div>
 
         <div style={styles.columnLayout}>
           <div style={styles.column}>
-           
             <h4 style={styles.marginb0}>Subtitle One</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -89,7 +102,6 @@ const ReportTemplate = () => {
           </div>
 
           <div style={styles.column}>
-            
             <h4 style={styles.marginb0}>Subtitle Two</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -100,7 +112,6 @@ const ReportTemplate = () => {
 
         <div style={styles.columnLayout}>
           <div style={styles.column}>
-         
             <h4 style={styles.marginb0}>Subtitle One</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -109,7 +120,6 @@ const ReportTemplate = () => {
           </div>
 
           <div style={styles.column}>
-            
             <h4 style={styles.marginb0}>Subtitle Two</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -118,6 +128,7 @@ const ReportTemplate = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

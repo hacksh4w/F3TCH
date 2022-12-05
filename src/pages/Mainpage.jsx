@@ -9,7 +9,7 @@ const Mainpage = () => {
             <Upload/>
             </div>
         <div className='col-span-1 scroll'>
-            <h1 className='mt-5'>Patient Records</h1>
+            <h1 className='mt-5 mx-2'>Patient Records</h1>
             <GetAll/>
             </div>
     </div>

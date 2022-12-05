@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1d1c1c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -118,6 +118,13 @@ button:focus-visible {
   -webkit-background-clip: text;
   animation: colour-change 2s loop;
   
+}
+.bg-slate-500{
+  background-color: #ffffff;
+}
+.px-2{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .mt-5{
  
