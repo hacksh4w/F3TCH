@@ -22,7 +22,7 @@ Problem Statement : Patients find it a near impossible tasks to gain access to a
 - Treatments Accessed
 - Treatment Payments or Healtcare Services accessed
  
-Although, the sharing of above information can be overridden by the Patient's consent, most organisations do not with the fear of being hit with a HIPAA violation,thus being the next step to doctor patient confidentiality.
+Although, the sharing of above information can be overridden by the Patient's consent, most organisations do not with the fear of being hit with a HIPAA violation, thus being the next step to doctor patient confidentiality.
 
 ## What is F3TCH?
 F3TCH brings a decentralised and secure approach to the problem by allowing the Patient's primary healthcare provider at Hospital 1 to upload all required files onto the Ethereum Blockchain and sharing the key with Patient so they may access their own files from it and share relevant documents with their Primary Healthcare Provider at Hospital 2.  
@@ -49,8 +49,11 @@ F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and del
 
 ## 🔧 Project Demo:
 [Demo Document](https://docs.google.com/document/d/1tKNwgIpqZWKnEeDfTPFcPAmc_h4MMG_fstvecCdaSdY/edit)
-<br><br/>
+<br>
 [DEMO VIDEO](https://drive.google.com/file/d/1_3Yja6JV8WgNLrsdS5EEoTY9wWCuC06y/view?usp=sharing)
+<br>
+[Content Bounty](https://drive.google.com/drive/folders/1f3uLpskuP1xoqwVLzSwahvuunDGqJDeu?usp=share_link)
+
 ### Live Demo
 Hosted Link : [F3TCH](https://f3tch.netlify.app/)
 
