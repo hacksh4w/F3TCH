@@ -63,8 +63,8 @@ Hosted Link : [F3TCH](https://f3tch.netlify.app/)
 - On enterring current details, redirects to the HomePage
 
 #### Login Page:
-A login page with 3 fields 
-- Login ID; Dictor ID & . 
+A login page with 2 fields 
+- Login ID & Password. 
 - On entering the right credentials, it directs the page to the HomePage.
 
 ### HomePage: 
