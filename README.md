@@ -1,8 +1,6 @@
 # **<div align="center">F3TCH</div>**  
 A web3 based secure storage client to allow Patients to retreive their confidental medical info when tranferring their healthcare from one establishment to another. Their primary healthcare provider has access to upload the required documents and patients can access them. 
 
-<img src="https://github.com/hacksh4w/F3TCH/assets/91671136/5725d9e8-8a3b-4d0a-985d-0eea33542707">
-
 **Tech Pirates** Repo for TPG Hackerhouse Dec 2nd - 4th, 2022
 <br>
 Tech-Heroes : IPFS, web3.storage
@@ -26,8 +24,12 @@ Problem Statement : Patients find it a near impossible tasks to gain access to a
 Although, the sharing of above information can be overridden by the Patient's consent, most organisations do not with the fear of being hit with a HIPAA violation, thus being the next step to doctor patient confidentiality.
 
 ## What is F3TCH?
-F3TCH brings a decentralised and secure approach to the problem by allowing the Patient's primary healthcare provider at Hospital 1 to upload all required files onto the Ethereum Blockchain and sharing the key with Patient so they may access their own files from it and share relevant documents with their Primary Healthcare Provider at Hospital 2.  
-F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and delivers the familiar web2 experience to the average user. 
+
+<img src="https://github.com/hacksh4w/F3TCH/assets/91671136/5725d9e8-8a3b-4d0a-985d-0eea33542707">
+
+- F3TCH brings a decentralised and secure approach to the problem by allowing the Patient's primary healthcare provider at Hospital 1 to upload all required files onto the Ethereum Blockchain and sharing the key with Patient so they may access their own files from it and share relevant documents with their Primary Healthcare Provider at Hospital 2.  
+- F3TCH also abstracts the nitty gritty aspects of Web3 away from the user and delivers the familiar web2 experience to the average user. 
+
 
 
 # Team Members
