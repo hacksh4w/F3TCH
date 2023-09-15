@@ -1,6 +1,7 @@
 # **<div align="center">F3TCH</div>**  
 A web3 based secure storage client to allow Patients to retreive their confidental medical info when tranferring their healthcare from one establishment to another. Their primary healthcare provider has access to upload the required documents and patients can access them. 
 
+<img src="https://github.com/hacksh4w/F3TCH/assets/91671136/5725d9e8-8a3b-4d0a-985d-0eea33542707">
 
 **Tech Pirates** Repo for TPG Hackerhouse Dec 2nd - 4th, 2022
 <br>
